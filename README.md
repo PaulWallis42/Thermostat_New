@@ -1,6 +1,6 @@
 # Thermostat
 
-This is a simple bank thermostat app that allows you to increase and decrease temperature.
+This is a simple thermostat app that allows you to increase and decrease temperature.
 
 Features of the app include a power saving option and a form which accepts the name of a city and on submission will fetch the current temperature of that city via an API.
 
