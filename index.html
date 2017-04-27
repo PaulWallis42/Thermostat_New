@@ -3,33 +3,56 @@
   <head>
     <title>Thermostat</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="temp.css">
+    <link rel="stylesheet" href="public/styles.css">
   </head>
   <body>
     <section>
-      <h1 id="temperature"></h1>
-      <p>
-        <button id="temperature-up">+</button>
+
+      <h1>Current Temperature Setting:</h1>
+
+      <div class="main-therm down">
         <button id="temperature-down">-</button>
-        <button id="temperature-reset">reset</button>
-        power saving mode is: <span id="power-saving-status"></span>
+      </div>
+
+      <div class="main-therm">
+        <h1 id="celcius"><span id="temperature"></span>&#8451;</h1>
+      </div>
+
+      <div class="main-therm up">
+        <button id="temperature-up">+</button>
+      </div>
+
+      <div id="temp-reset">
+        <button id="temperature-reset">Reset</button>
+      </div>
+
+      <div id="power-save">
+        <h3>Power Saving Mode is: <span id="power-saving-status"></span></h3>
+      </div>
+
+      <div>
         <button id="powersaving-on">PSM on</button>
         <button id="powersaving-off">PSM off</button>
-      </p>
+      </div>
+
     </section>
+
     <section>
+
       <form>
-        Select a city for temperature in that city:
+        <h4>Enter a city to display temperature:</h4>
         <input type='text' id='input-city'>
         <input id='submit-city' type='submit' value='Submit'>
       </form>
+
       <h1>The current temperature in
         <span id='current-city'></span>
         is
-        <span id='current-temp'></span>
-        degrees.
+        <span id='current-temp'></span>&#8451;
       </h1>
+
     </section>
+
     <script src="src/thermostat.js"></script>
     <script src="src/userInterface.js"></script>
   </body>

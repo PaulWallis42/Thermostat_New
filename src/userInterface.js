@@ -10,6 +10,7 @@ $(function(){
     $('#temperature').text(thermostat.currentTemp());
     $('#power-saving-status').text(thermostat.powerSavingStatus());
     $('#temperature').attr('class', thermostat.energyUsage());
+    $('#celcius').attr('class', thermostat.energyUsage());
   }
 
 

@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+}
+
+section {
+  margin-top: 8%;
+}
+
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: orange;
+}
+
+.high-usage {
+  color: red;
+}
+
+#temperature-up {
+  background-color: #f43030;
+  font-weight: bold;
+}
+
+#temperature-down {
+  background-color: #a4f4ef;
+  font-weight: bold;
+}
+
+#temperature-reset {
+  background-color: #96e8b7;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+#powersaving-on {
+  background: #96e8b7;
+  font-weight: bold;
+  margin-right: 1%;
+}
+
+#powersaving-off {
+  background: #f43030;
+  font-weight: bold;
+}
+
+#temp-reset {
+  margin-bottom: 5%;
+}
+
+#power-save {
+  margin-bottom: 1%;
+}
+
+.main-therm {
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#celcius {
+  font-size: 40px;
+}
+
+#submit-city {
+  background-color: lightblue;
+}
