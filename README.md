@@ -2,9 +2,22 @@
 
 This is a simple thermostat app that allows you to increase and decrease temperature.
 
+
+![landing page](public/readme.png)
+
 Features of the app include a power saving option and a form which accepts the name of a city and on submission will fetch the current temperature of that city via an API.
 
-The app is written in Javascript and uses Jasmine for Test Driven Development.  The api consumed is from openweather.org (this seems to work on most cities but can get confused with some). 
+The app is written in Javascript and uses Jasmine for Test Driven Development.
+
+The app is written using the following technologies:
+
+* JavaScript
+* HTML
+* CSS
+
+Tested using:
+
+* Jasmine
 
 ## Getting Started
 To use the app simply download to your local machine and in the command line from that directory run 'open index.html'
